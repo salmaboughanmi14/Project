@@ -1,0 +1,117 @@
+/* Login.css */
+
+/* Basic styling for the main section */
+section {
+  background-color: #ffffff;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+
+/* Container for the login card */
+.container {
+  
+  width: 80%;
+  max-width: 1000px;
+  
+}
+
+/* Card styling */
+.card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(167, 58, 58, 0.2);
+}
+
+/* Row for the card content */
+.row {
+  display: flex;
+}
+
+/* Left-side image column */
+.col-md-6.col-lg-5.d-none.d-md-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-md-6.col-lg-5.d-none.d-md-block img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Right-side form column */
+.col-md-6.col-lg-7.d-flex.align-items-center {
+  padding: 0 30px;
+  
+}
+
+/* Card body styling */
+.card-body {
+  background-color: #fff;
+  padding: 50px 80px;
+}
+
+/* Form title */
+.h1 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form spacing */
+
+/* Form input labels */
+.form-label {
+  color: #6c757d;
+  font-size: 1.5rem;
+  
+}
+
+/* Form input fields */
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 0.4rem;
+  padding: 0.8rem 1rem;
+  background-color: #fff;
+}
+
+/* Focus state for form inputs */
+.form-control:focus {
+  border-color: #4285f4;
+  box-shadow: 0 0 0 0.2rem #4285f4;
+}
+
+/* Button styling */
+.btn {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin: 15px;
+}
+
+/* Hover state for buttons */
+.btn:hover {
+  background-color: #007bff;
+  
+}
+
+/* Links for forgot password and registration */
+.small.text-muted {
+  color: #6c757d;
+  font-size: 0.9rem;
+  
+}
+
+/* Terms of use and privacy policy links */
+.small.text-muted a {
+  color: #6c757d;
+  text-decoration: none;
+ 
+}
